@@ -338,6 +338,32 @@ The following code will only run if your browser supports CSS grid
 a{
   margin-right: 30px;
 }
-.containerText{
-  
+
+.msg-btn, .follow-btn{
+  background: #032fbf;
+  border: 1px solid #032fbf;
+  padding: 10px 25px;
+  color: #231e39;
+  border-radius: 3px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+}
+.follow-btn{
+  margin-left: 10px;
+  background: transparent;
+  color: #032fbf;
+}
+.follow-btn:hover{
+  color: #fcfcfc;
+  background: #032fbf;
+  transition: .5s;
+}
+
+p{
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+}
+
+h1{
+  font-family: Montserrat, sans-serif;
 }
